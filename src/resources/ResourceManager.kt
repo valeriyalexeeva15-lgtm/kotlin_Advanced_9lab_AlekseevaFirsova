@@ -1,3 +1,5 @@
+package resources
+
 class ResourceManager {
     private val resources = mutableListOf<OutpostResource>()
     fun add(resource: OutpostResource) {
@@ -7,7 +9,7 @@ class ResourceManager {
     fun get(name: String): OutpostResource? {
         return resources.find { it.name == name }
     }
-    fun printAll() { 
+    fun printAll() {
         println("Pecурсы базы")
         resources.forEach { println("${it.name}: ${it.amount}") }
     }

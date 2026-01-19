@@ -1,3 +1,6 @@
+import resources.OutpostResource
+import resources.ResourceManager
+
 fun main() {
     val manager = ResourceManager()
     val minerals = OutpostResource(id = 1, name = "Minerals", amount = 300)

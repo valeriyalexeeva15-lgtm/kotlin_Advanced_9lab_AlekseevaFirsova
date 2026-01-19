@@ -1,3 +1,5 @@
+package examle
+
 interface Movable{
     var speed: Int
     val model: String

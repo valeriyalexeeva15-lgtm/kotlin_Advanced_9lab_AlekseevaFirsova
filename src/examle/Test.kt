@@ -1,3 +1,5 @@
+package examle
+
 var age: Int = 18
     set(value) {
         if ((value > 0 ) and (value < 110))
@@ -53,7 +55,7 @@ fun main() {
     println(betterSword.toString())
     val(id, name, quantity) =betterSword
     println("Id предмета: $id\nИмя: $name пКоличество: $quantity\n")
-//    val pavel: Human =Human(name = "Pavel")
+//    val pavel: examle.Human =examle.Human(name = "Pavel")
     val denis: Person =Person(name = "Denis")
     val maksim: Human= Person(name = "Maksim")
     denis.hello()
