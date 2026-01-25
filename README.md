@@ -99,13 +99,15 @@ dog.sleep()      // Zzz...
 ## 5. Интерфейсы
 определяют контракт поведения, который должны реализовать классы. Могут содержать абстрактные методы и методы с реализацией (default-методы).
 ```
+// Определяем интерфейс видео-плеера
 interface VideoPlayable {
 fun play()
 }
-
+// Определяем интерфейс аудио-плеера
 Interface VideoPlayable {
 fun play()
 }
+
 class MediaPlayer: VideoPlayable, AudioPlayable {
 override fun play() {
 println("Play audio and video")
